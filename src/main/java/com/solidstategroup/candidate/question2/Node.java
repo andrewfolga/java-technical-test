@@ -13,6 +13,11 @@ public interface Node {
     int getValue();
 
     /**
+     * Add new node
+     */
+    void addNode(final Node node);
+
+    /**
      * @return list of children this node has
      */
     List<Node> getChildren();

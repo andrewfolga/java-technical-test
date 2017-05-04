@@ -15,5 +15,5 @@ public interface Search {
      * @return A List of search results from this search.
      * @throws IOException if an error occurs performing the search.
      */
-    public List<String> search(String query) throws IOException;
+    public List<String> search(String query) throws IOException, InterruptedException;
 }
